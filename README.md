@@ -1,0 +1,1 @@
+# kadai03_Picked_up_a_notebook
