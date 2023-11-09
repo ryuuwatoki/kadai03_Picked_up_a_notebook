@@ -1,0 +1,80 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+
+#opening {
+    text-align: center; /* 水平居中文本内容 */
+    position: relative; /* 开启相对定位 */
+    height: 660px;
+    width: 375px;
+}
+
+#tokyo {
+    display: block; /* 让图像作为块级元素 */
+    margin-top: 40px;  /* 上面增加邊距 */
+    width: 375px;
+
+}
+
+#death_note {
+    height: 35px;
+    width: auto;
+}
+
+#link_div {
+    position: absolute; /* 相对定位 */
+    left: 30%;
+    bottom: 70px;
+    transform: rotate(-25deg);
+}
+
+/* 初始时将元素不可见 */
+#link_div {
+    display: none;
+}
+
+
+#text {
+    position: absolute; /* 相对定位 */
+    left: 50%; /* 水平居中 */
+    top: 10px;
+    transform: translateX(-50%); /* 使用 transform 将元素水平居中 */
+}
+
+#second_box {
+    text-align: center; /* 水平居中文本内容 */
+    position: relative; /* 开启相对定位 */
+
+}
+
+/* 初始时将元素不可见 */
+#second, #second2, #second3, #second4, #second5, #second6, #second_next {
+    font-size: 20px;
+    display: none;
+}
+
+#second {
+    margin-top: 80px;
+}
+
+
+#second2, #second3, #second4, #second5, #second6, #second_next {
+    margin-top: 40px;
+}
