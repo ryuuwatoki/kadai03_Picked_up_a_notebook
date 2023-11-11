@@ -11,7 +11,7 @@
 ## DEMO
 
 - index.html
-
+https://ryuuwatoki.github.io/kadai03_Picked_up_a_notebook/
 
 ## 紹介と使い方
 
