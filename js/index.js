@@ -43,41 +43,41 @@ $(document).ready(function() {
 
             // n秒后淡入 second 元素
             setTimeout(function() {
-                $("#second").fadeIn(2000);
-            }, 2000);
+                $("#second").fadeIn(1400);
+            }, 1400);
 
             // n秒后淡入 second2 元素
             setTimeout(function() {
-                $("#second2").fadeIn(2000);
-            }, 4000);
+                $("#second2").fadeIn(1400);
+            }, 2800);
 
             // n秒后淡入 second3 元素
             setTimeout(function() {
-                $("#second3").fadeIn(2000);
-            }, 6000);
+                $("#second3").fadeIn(1400);
+            }, 4200);
 
             // n秒后淡入 second4 元素
             setTimeout(function() {
-                $("#second4").fadeIn(2000);
-            }, 8000);
+                $("#second4").fadeIn(1400);
+            }, 5600);
             
             // n秒后淡入 second5 元素
             setTimeout(function() {
-                $("#second5").fadeIn(2000);
-            }, 10000);
+                $("#second5").fadeIn(1400);
+            }, 7000);
 
 
             // n秒后淡入 second6 元素
             setTimeout(function() {
-                $("#second6").fadeIn(2000);
-            }, 12000);
+                $("#second6").fadeIn(1400);
+            }, 8400);
 
 
 
             // n秒后淡入 second_next 元素
             setTimeout(function() {
                 $("#second_next").fadeIn(2000);
-            }, 14000);
+            }, 10000);
 
 
 
@@ -94,8 +94,8 @@ $(document).ready(function() {
 
         clickSound2.play(); // 播放声音
 
-                // 隐藏 #second_box 元素，持续时间为 3 秒
-                $("#second_box").fadeOut(3000);
+                // 隐藏 #second_box 元素，持续时间为 n 秒
+                $("#second_box").fadeOut(2500);
 
 
 
