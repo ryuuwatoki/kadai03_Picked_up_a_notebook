@@ -43,7 +43,7 @@ $(document).ready(function() {
 
             // n秒后淡入 second 元素
             setTimeout(function() {
-                $("#second").fadeIn(1400);
+                $("#second1").fadeIn(1400);
             }, 1400);
 
             // n秒后淡入 second2 元素

@@ -65,12 +65,12 @@ body {
 }
 
 /* 初始时将元素不可见 */
-#second, #second2, #second3, #second4, #second5, #second6, #second_next {
+#second1, #second2, #second3, #second4, #second5, #second6, #second_next {
     font-size: 20px;
     display: none;
 }
 
-#second {
+#second1 {
     margin-top: 80px;
 }
 
