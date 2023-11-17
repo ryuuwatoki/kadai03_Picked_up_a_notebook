@@ -41,36 +41,24 @@ $(document).ready(function() {
             // 清空 opening
             $("#opening").empty();
 
-            // n秒后淡入 second 元素
-            setTimeout(function() {
-                $("#second1").fadeIn(1400);
-            }, 1400);
 
-            // n秒后淡入 second2 元素
-            setTimeout(function() {
-                $("#second2").fadeIn(1400);
-            }, 2800);
 
-            // n秒后淡入 second3 元素
-            setTimeout(function() {
-                $("#second3").fadeIn(1400);
-            }, 4200);
-
-            // n秒后淡入 second4 元素
-            setTimeout(function() {
-                $("#second4").fadeIn(1400);
-            }, 5600);
             
-            // n秒后淡入 second5 元素
-            setTimeout(function() {
-                $("#second5").fadeIn(1400);
-            }, 7000);
+            // 定義延遲時間的變數
+            let delay = 1400;
 
+            // 使用迴圈重複執行操作
+            for (let i = 1; i <= 6; i++) {
+                // 使用匿名函式和 setTimeout 設定延遲後的操作
+                setTimeout(function() {
+                    // 將對應的元素淡入
+                    $("#second" + i).fadeIn(1400);
+                }, delay);
 
-            // n秒后淡入 second6 元素
-            setTimeout(function() {
-                $("#second6").fadeIn(1400);
-            }, 8400);
+                // 增加延遲時間以便下一次操作
+                delay += 1400;
+            }
+
 
 
 
