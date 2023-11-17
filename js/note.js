@@ -78,8 +78,8 @@ $(document).ready(function() {
         // 生成 HTML 元素並顯示在列表中
         const html = `
         <li>
-            <p>${key}</p>
-            <p>${value}</p>
+            <p>死者:${key}</p>
+            <p>死因:${value}</p>
             <button class="Reborn" data-key="${key}">蘇る</button>
         </li>
         `;
