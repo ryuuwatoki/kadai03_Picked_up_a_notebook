@@ -12,9 +12,9 @@ var rebornAllSound1 = new Audio('../sound/11_hallelujah.mp3')
 
 
 
-
+// 隱藏body，然後在n秒內淡入
 $(document).ready(function() {
-    $('body').hide().fadeIn(1000); // 隱藏body，然後在n秒內淡入
+    $('body').hide().fadeIn(1000); 
 });
 
 
@@ -22,8 +22,6 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
-
-
 
 
     // Save 按鈕點擊事件
@@ -70,8 +68,6 @@ $(document).ready(function() {
 
 
 
-
-
         // 將資料存入 localStorage
         localStorage.setItem(key, value);
 
@@ -97,7 +93,6 @@ $(document).ready(function() {
 
 
 
-
     // Clear 按鈕點擊事件
     $("#clear").on("click", function () {
 
@@ -114,6 +109,10 @@ $(document).ready(function() {
 
     });
 
+
+
+
+
     // 列表中的蘇る按鈕點擊事件
     $("#list").on("click", ".Reborn", function () {
         const key = $(this).data("key");
@@ -125,6 +124,10 @@ $(document).ready(function() {
         // 移除包含該按鈕的 <li> 元素
         $(this).closest("li").remove();
     });
+
+
+
+
 
     // 頁面載入時顯示 localStorage 中的資料
     for (let i = 0; i < localStorage.length; i++) {
@@ -139,5 +142,7 @@ $(document).ready(function() {
         `;
         $("#list").append(html);
     }
+
+
 });
 
